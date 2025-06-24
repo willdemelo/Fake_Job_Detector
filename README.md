@@ -40,9 +40,10 @@ Future work could:
 
 ## Bibliography
 
-If using this work, please cite the original dataset and references:
+If using this work, please cite both the original dataset from the University of the Aegean, and the reupload on Kaggle:
 
-- Bansal, S. (2020). Real / fake job posting prediction. [Kaggle Dataset](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction?resource=download)  
-- Awad, M., & Khanna, R. (2015). *Efficient Learning Machines*. Apress.  
-- Batuwita, R., & Palade, V. (2013). *Class imbalance learning methods for support vector machines*.  
-- Sebastiani, F. (2002). *Machine learning in automated text categorization*. ACM Computing Surveys.  
+Bansal, S. (2020, February 29). Real / fake job posting prediction. Kaggle.
+https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobpostingprediction?
+resource=download
+Laboratory of Information & Communication Systems Security. (2014). Employment
+Scam Aegean Dataset. University of the Aegean. http://emscad.samos.aegean.gr
