@@ -11,6 +11,24 @@ Job posting platforms like LinkedIn and Handshake have facilitated job searches 
 
 Each model is evaluated on classification performance using precision, recall, F1, and ROC-AUC scores after hyperparameter tuning and threshold optimization.
 
+To use the data we used, view the [.csv dataset](https://github.com/willdemelo/Fraudulent_Job_Posting_Detector/blob/main/fake_job_postings.csv) taken from Kaggle. The code to generate the models with is in the [SVCs.ipynb](https://github.com/willdemelo/Fraudulent_Job_Posting_Detector/blob/main/SVCs.ipynb) file. If you would like to see the rendered report, 
+
+### Writeup
+
+This is the full writeup of the entire process. You can find it [here](https://github.com/willdemelo/Fraudulent_Job_Posting_Detector/blob/main/writeup.pdf). It is a comprehensive look at our methods, results, and intepretation thereof.
+
+## Contribution Overview
+
+I contributed to this project in the following ways:
+
+*Preprocessing and Vectorization*: I implemented the preprocessing method to make the models' training using the text inputs smoother and less prone to errors. The use of text vectorization using two different approaches was also my idea; I implemented the TF-IDF vectorization process, also.
+
+*Hyperparameter Tuning*: I constructed the graphs in Figure 1 by testing the models' perfomance with varying amounts of maximum features learned from the text data. As SVC models are built for high-dimensional data, I found that no matter how many features were learned, the models appeared to do better and better. I also conducted a Grid Search for the optimal "C" for both models.
+
+*Statistical tests*: I conducted the t-tests used to evaluate each of the models' performances against each other, and wrote the section explaining as much in the writeup.
+
+*Word Cloud*: I implemented the word cloud using the feature importances assigned to unique unigrams and bigrams in the results section. I also wrote the section interpreting the word cloud's performance as an aid to users of these models.
+
 ## Resources
 - Editor Used: Jupyter Notebook / Python
 - Libraries: `scikit-learn`, `nltk`, `matplotlib`, `pandas`, `seaborn`
